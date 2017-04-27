@@ -27,6 +27,7 @@ li{
     height: 5.5em;
     color: white;
     transition: background-color 0.5s ease;
+    margin-bottom: 2em;
 }
 .MenuSelectionL:hover{
     background-color: orange;
@@ -39,4 +40,29 @@ li{
 .no-padding > [class*='col-'] {
     padding-right: 0;
     padding-left: 0;
+}
+label{
+    color: orange;
+}
+div div p{
+    color: orange;
+}
+ul li a{
+    color: orange;
+}
+div h3{
+    color:orange;
+}
+.thumbnail{
+    width: 33%;
+    float: left
+}
+.btn{
+    transition: background-color 5s ease color 5s ease;
+    background-color: orange;
+    color: black;
+}
+.btn:hover{
+    background-color: black;
+    color: orange;
 }
